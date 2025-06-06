@@ -36,12 +36,12 @@ NODES=(
 
 # WORKFLOWS=(
 
-)
+# )
 
 # CHECKPOINT_MODELS=(
 #    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
 
-)
+# )
 
 DIFFUSION_MODELS=(
  	"https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors"
