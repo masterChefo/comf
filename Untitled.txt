@@ -188,11 +188,11 @@ function provisioning_has_valid_hf_token() {
 }
 
 function provisioning_has_valid_civitai_token() {
-    [[ -n "$21e9132728834c65ec47b1c84cfbd08d" ]] || return 1
+    [[ -n "$b2648317403272b9d002423a96943e71" ]] || return 1
     url="https://civitai.com/api/v1/models?hidden=1&limit=1"
 
     response=$(curl -o /dev/null -s -w "%{http_code}" -X GET "$url" \
-        -H "Authorization: Bearer $21e9132728834c65ec47b1c84cfbd08d" \
+        -H "Authorization: Bearer $b2648317403272b9d002423a96943e71" \
         -H "Content-Type: application/json")
 
     # Check if the token is valid
@@ -208,8 +208,8 @@ function provisioning_download() {
     if [[ -n $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 && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?huggingface\.co(/|$|\?) ]]; then
         auth_token="$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"
     elif 
-        [[ -n $21e9132728834c65ec47b1c84cfbd08d && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|$|\?) ]]; then
-        auth_token="$21e9132728834c65ec47b1c84cfbd08d"
+        [[ -n $b2648317403272b9d002423a96943e71 && $1 =~ ^https://([a-zA-Z0-9_-]+\.)?civitai\.com(/|$|\?) ]]; then
+        auth_token="$b2648317403272b9d002423a96943e71"
     fi
     if [[ -n $auth_token ]];then
         wget --header="Authorization: Bearer $auth_token" -qnc --content-disposition --show-progress -e dotbytes="${3:-4M}" -P "$2" "$1"
