@@ -102,7 +102,7 @@ function provisioning_start() {
 #        "${COMFYUI_DIR}/models/checkpoints" \
 #        "${CHECKPOINT_MODELS[@]}"
     provisioning_get_files \
-        "${COMFYUI_DIR}/models/diffusion_models" \
+        "${COMFYUI_DIR}/models/diffusion_models/Wan2.1" \
         "${DIFFUSION_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/loras" \
