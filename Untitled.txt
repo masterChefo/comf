@@ -34,7 +34,6 @@ NODES=(
 )
 
 # WORKFLOWS=(
-
 # )
 
 # CHECKPOINT_MODELS=(
@@ -83,8 +82,9 @@ TEXT_ENCODERS=(
 	"https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors"
 )
 
-# CONTROLNET_MODELS=(
-# )
+UPSCALE_MODELS=(
+	"https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth"
+)
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
@@ -102,9 +102,9 @@ function provisioning_start() {
     provisioning_get_files \
         "${COMFYUI_DIR}/models/diffusion_models/Wan2.1" \
         "${DIFFUSION_MODELS[@]}"
-#    provisioning_get_files \
-#        "${COMFYUI_DIR}/models/controlnet" \
-#        "${CONTROLNET_MODELS[@]}"
+    provisioning_get_files \
+        "${COMFYUI_DIR}/models/upscale_models" \
+        "${UPSCALE_MODELS[@]}"
     provisioning_get_files \
         "${COMFYUI_DIR}/models/vae" \
         "${VAE_MODELS[@]}"
