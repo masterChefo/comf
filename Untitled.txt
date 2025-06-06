@@ -28,6 +28,7 @@ NODES=(
 	"https://github.com/Smirnov75/ComfyUI-mxToolkit"
 	"https://github.com/facok/ComfyUI-HunyuanVideoMultiLora"
 	"https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+	"https://github.com/yolain/ComfyUI-Easy-Use"
 	"https://github.com/kijai/ComfyUI-Florence2"
 	"https://github.com/pollockjj/ComfyUI-MultiGPU"
 )
