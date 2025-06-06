@@ -31,22 +31,17 @@ NODES=(
 	"https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
 	"https://github.com/kijai/ComfyUI-Florence2"
 	"https://github.com/pollockjj/ComfyUI-MultiGPU"
-
 )
 
 # WORKFLOWS=(
-
 # )
-
 # CHECKPOINT_MODELS=(
 #    "https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
-
 # )
 
 DIFFUSION_MODELS=(
  	"https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors"
 	"https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-T2V-14B_fp8_e4m3fn.safetensors"
-
 )
 
 LORA_MODELS=(
@@ -80,12 +75,10 @@ LORA_MODELS=(
 
 VAE_MODELS=(
        "https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-480P/resolve/main/Wan2.1_VAE.pth"
-
 )
 
 TEXT_ENCODERS=(
     "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors"
-
 )
 
 # CONTROLNET_MODELS=(
