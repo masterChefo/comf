@@ -32,6 +32,7 @@ NODES=(
 	"https://github.com/yolain/ComfyUI-Easy-Use"
 	"https://github.com/kijai/ComfyUI-Florence2"
 	"https://github.com/pollockjj/ComfyUI-MultiGPU"
+ 	"https://github.com/pollockjj/ComfyUI-GGUF"
 )
 
 # WORKFLOWS=(
