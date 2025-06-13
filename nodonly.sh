@@ -32,7 +32,7 @@ NODES=(
 	"https://github.com/kijai/ComfyUI-Florence2"
 	"https://github.com/pollockjj/ComfyUI-MultiGPU"
  	"https://github.com/pollockjj/ComfyUI-GGUF"
-  	"https://github.com/madtunebk/ComfyUI-ControlnetAux"
+  	"https://github.com/Fannovel16/comfyui_controlnet_aux"
    	"https://github.com/chflame163/ComfyUI_LayerStyle"
     	"https://github.com/FizzleDorf/ComfyUI_FizzNodes"
 )
