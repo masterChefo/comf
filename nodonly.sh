@@ -35,6 +35,7 @@ NODES=(
   	"https://github.com/Fannovel16/comfyui_controlnet_aux"
    	"https://github.com/chflame163/ComfyUI_LayerStyle"
     	"https://github.com/FizzleDorf/ComfyUI_FizzNodes"
+     	"https://github.com/kijai/ComfyUI-MMAudio"
 )
 
 # WORKFLOWS=(
